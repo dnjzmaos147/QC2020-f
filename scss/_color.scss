@@ -1,0 +1,46 @@
+// Optical(Alpa value)
+$alpha: 0.3;
+
+// defualt color
+$parang:    rgb(0, 120, 255)    !default;
+$bora:      rgb(110, 65, 193)   !default;
+$bbargang:  rgb(246, 30, 50)    !default;
+$norang:    rgb(225, 193, 6)    !default;
+$chorok:    rgb(0, 151, 11)     !default;
+$hwang:     rgb(249, 168, 37)   !default;
+
+//Gray
+$haesak:    rgb(108, 117, 125)  !default;
+$udoom:     rgb(52, 58, 64)     !default;
+
+//Black & White
+$gumjung:   rgb(0, 0, 0)        !default;
+$hayang:    rgb(243, 242, 242)  !default;
+
+//background color
+$bg-parang:      rgba($parang, $alpha)    !default;
+$bg-bora:        rgba($bora, $alpha)      !default;
+$bg-bbargang:    rgba($bbargang, $alpha)  !default;
+$bg-norang:      rgba($norang, $alpha)    !default;
+$bg-chorok:      rgba($chorok, $alpha)    !default;
+
+//box shadow
+$box-shadow-color: rgba(34, 34, 34, 0.24);
+
+//quote color
+$quote-color:  rgba(238, 238, 238, 0.8);
+
+//font color
+$font-color-white:  rgb(243, 242, 242);
+$font-color-black:  rgb(12, 12, 12);
+
+
+//defualt color array
+$defualt-color:(
+    'parang':$parang,
+    'bora':$bora,
+    'bbargang':$bbargang,
+    'norang':$norang,
+    'chorok':$chorok,
+    'hwang':$hwang
+)
